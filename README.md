@@ -31,6 +31,8 @@ RampageDev's X79 Guide ([mediafire](http://www.mediafire.com/file/pd6v64ym2s9fv6
 ## Overview
 Hackintosher's prepackaged EFI got me all the way through macOS Mojave's install, but the resulting install wouldn't boot. Following RampageDev's guide wouldn't get me all the way through the install. I ended first copying Hackintosher's EFI folder to my USB's EFI partition, then following all of RampageDev's guide (install kexts, SSDT.aml and SSDT-1.aml, config.plist) except the Audio portion, since the existing audio kext works. This combination of kexts supplied by Hackintosher and RampageDev worked. Those are the files in this repo.
 
+It seems High Sierra prefers APFS over HFS+ on SSDs, since I couldn't install to my drive when it was formatted with an HFS+ partition. I also had to find my drive in Disk Utility by selecting Show All Disks in View -> ...
+
 Overall, a much easier and simpler install process than my Dec 2014 install on the same machine.
 
 # Nvidia Web Driver
