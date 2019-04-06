@@ -16,7 +16,7 @@ Not working:
 There probably exists better BT + Wifi combo PCI-e cards now.
 
 ## Resources
-RampageDev's X79 Guide ([mediafire](http://www.mediafire.com/file/pd6v64ym2s9fv6n/X79.dmg/file)) (found through [reddit](https://www.reddit.com/r/hackintosh/comments/9ga0r9/rampagedev_x79_dmg/) since their site seems down)
+[RampageDev's X79 Guide](/X79.dmg) ([mediafire mirror](http://www.mediafire.com/file/pd6v64ym2s9fv6n/X79.dmg/file)) (found through [reddit](https://www.reddit.com/r/hackintosh/comments/9ga0r9/rampagedev_x79_dmg/) since their site seems down)
 
 [Hackintosher's Guide and prepackaged EFI](https://hackintosher.com/guides/high-sierra-install-full-guide/)
 
