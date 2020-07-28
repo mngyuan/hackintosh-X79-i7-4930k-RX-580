@@ -1,42 +1,48 @@
 
-Clover EFI installer log - Sat Apr  6 01:50:52 PDT 2019
-Installer version: v2.4k r4910 EFI bootloader
+Clover EFI installer log - Tue Jul 28 00:50:50 PDT 2020
+Installer version: r5120 (commit: 33816ae90) EFI bootloader
 ======================================================
-/dev/disk0 (internal):
+/dev/disk0 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                         960.2 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk1         960.0 GB   disk0s2
+   0:      GUID_partition_scheme                        *250.1 GB   disk0
+   1:           Windows Recovery                         523.2 MB   disk0s1
+   2:                        EFI NO NAME                 104.9 MB   disk0s2
+   3:         Microsoft Reserved                         16.8 MB    disk0s3
+   4:       Microsoft Basic Data                         249.4 GB   disk0s4
 
-/dev/disk1 (synthesized):
+/dev/disk1 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +960.0 GB   disk1
-                                 Physical Store disk0s2
-   1:                APFS Volume telecaster              509.2 GB   disk1s1
-   2:                APFS Volume Preboot                 54.3 MB    disk1s2
-   3:                APFS Volume Recovery                512.8 MB   disk1s3
-   4:                APFS Volume VM                      16.1 GB    disk1s4
+   0:      GUID_partition_scheme                        *240.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         239.8 GB   disk1s2
 
-/dev/disk2 (disk image):
+/dev/disk2 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:                            X79                    +102.4 MB   disk2
+   0:      APFS Container Scheme -                      +239.8 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume jazzmaster              175.9 GB   disk2s1
+   2:                APFS Volume Preboot                 21.6 MB    disk2s2
+   3:                APFS Volume Recovery                519.1 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
 
 /dev/disk3 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *62.9 GB    disk3
-   1:                        EFI EFI                     209.7 MB   disk3s1
-   2:                  Apple_HFS Install macOS High S... 62.6 GB    disk3s2
+   0:     FDisk_partition_scheme                        *2.0 TB     disk3
+   1:               Windows_NTFS mngyuan.com             2.0 TB     disk3s1
 
+Target volume /Volumes/jazzmaster on disk2 is APFS on physical store disk1s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Install macOS High Sierra/EFIROOTDIR/EFI folder to /Volumes/Install macOS High Sierra/EFI-Backups/r4813/2019-04-06-01h50/EFI
+Backing up /Volumes/jazzmaster/EFIROOTDIR/EFI folder to /Volumes/jazzmaster/EFI-Backups/r4910/2020-07-28-00h50/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
-Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS High Sierra
-Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS High Sierra
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Removing UEFI/AptioMemoryFix.efi because OsxAptioFix3Drv.efi is installed
 
+Theme 'metal' (defined in config.plist) not found !
 Using default theme 'newyear'
 ======================================================
 =========== Clover EFI Installation Finish ===========

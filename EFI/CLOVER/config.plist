@@ -4,106 +4,11 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>DSDT</key>
-		<dict>
-			<key>Debug</key>
-			<false/>
-			<key>Fixes</key>
-			<dict>
-				<key>AddDTGP_0001</key>
-				<false/>
-				<key>AddHDMI_8000000</key>
-				<false/>
-				<key>AddIMEI_80000</key>
-				<false/>
-				<key>AddMCHC_0008</key>
-				<false/>
-				<key>AddPNLF_1000000</key>
-				<false/>
-				<key>DeleteUnused_400000</key>
-				<false/>
-				<key>FIX_ACST_4000000</key>
-				<false/>
-				<key>FIX_ADP1_800000</key>
-				<false/>
-				<key>FIX_INTELGFX_100000</key>
-				<false/>
-				<key>FIX_RTC_20000</key>
-				<false/>
-				<key>FIX_S3D_2000000</key>
-				<false/>
-				<key>FIX_TMR_40000</key>
-				<false/>
-				<key>FIX_WAK_200000</key>
-				<false/>
-				<key>FakeLPC_0020</key>
-				<false/>
-				<key>FixAirport_4000</key>
-				<false/>
-				<key>FixDarwin_0002</key>
-				<false/>
-				<key>FixDisplay_0100</key>
-				<false/>
-				<key>FixFirewire_0800</key>
-				<false/>
-				<key>FixHDA_8000</key>
-				<false/>
-				<key>FixHPET_0010</key>
-				<false/>
-				<key>FixIDE_0200</key>
-				<false/>
-				<key>FixIPIC_0040</key>
-				<false/>
-				<key>FixLAN_2000</key>
-				<false/>
-				<key>FixRegions_10000000</key>
-				<true/>
-				<key>FixSATA_0400</key>
-				<false/>
-				<key>FixSBUS_0080</key>
-				<false/>
-				<key>FixShutdown_0004</key>
-				<false/>
-				<key>FixUSB_1000</key>
-				<false/>
-				<key>NewWay_80000000</key>
-				<false/>
-			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
-		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-		</array>
-		<key>HaltEnabler</key>
-		<false/>
 		<key>SSDT</key>
 		<dict>
-			<key>DropOem</key>
-			<true/>
-			<key>EnableC2</key>
-			<false/>
-			<key>EnableC4</key>
-			<false/>
 			<key>EnableC6</key>
 			<false/>
-			<key>EnableC7</key>
+			<key>EnableC2</key>
 			<false/>
 			<key>Generate</key>
 			<dict>
@@ -112,53 +17,174 @@
 				<key>PStates</key>
 				<false/>
 			</dict>
+			<key>DropOem</key>
+			<true/>
+			<key>EnableC4</key>
+			<false/>
+			<key>EnableC7</key>
+			<false/>
 		</dict>
+		<key>DSDT</key>
+		<dict>
+			<key>Debug</key>
+			<false/>
+			<key>Name</key>
+			<string>DSDT.aml</string>
+			<key>Fixes</key>
+			<dict>
+				<key>FixIDE</key>
+				<false/>
+				<key>AddHDMI</key>
+				<false/>
+				<key>FixIntelGfx</key>
+				<false/>
+				<key>FixACST</key>
+				<false/>
+				<key>FakeLPC</key>
+				<false/>
+				<key>FixFirewire</key>
+				<false/>
+				<key>FixShutdown</key>
+				<false/>
+				<key>FixDisplay</key>
+				<false/>
+				<key>AddIMEI</key>
+				<false/>
+				<key>FixHPET</key>
+				<false/>
+				<key>AddMCHC</key>
+				<false/>
+				<key>FixAirport</key>
+				<false/>
+				<key>FixRTC</key>
+				<false/>
+				<key>AddPNLF</key>
+				<false/>
+				<key>FixS3D</key>
+				<false/>
+				<key>FixLAN</key>
+				<false/>
+				<key>FixRegions</key>
+				<true/>
+				<key>DeleteUnused</key>
+				<false/>
+				<key>AddDTGP</key>
+				<false/>
+				<key>FixSBUS</key>
+				<false/>
+				<key>FixSATA</key>
+				<false/>
+				<key>FixTMR</key>
+				<false/>
+				<key>FixUSB</key>
+				<false/>
+				<key>FixWAK</key>
+				<false/>
+				<key>FixDarwin</key>
+				<false/>
+				<key>FixHDA</key>
+				<false/>
+				<key>FixADP1</key>
+				<false/>
+				<key>FixIPIC</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>HaltEnabler</key>
+		<false/>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>TableId</key>
+				<string>CpuPm</string>
+				<key>Signature</key>
+				<string>SSDT</string>
+			</dict>
+			<dict>
+				<key>TableId</key>
+				<string>Cpu0Ist</string>
+				<key>Signature</key>
+				<string>SSDT</string>
+			</dict>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>npci=0x2000 kext-dev-mode=1 dart=0 nvda_drv=1</string>
-		<key>DefaultVolume</key>
-		<string>MacHDD</string>
-		<key>Fast</key>
-		<false/>
-		<key>Legacy</key>
-		<string>PBR</string>
+		<key>Timeout</key>
+		<integer>0</integer>
 		<key>Log</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
+		<key>DefaultVolume</key>
+		<string>jazzmaster</string>
+		<key>Arguments</key>
+		<string>npci=0x2000 kext-dev-mode=1 dart=0 -v</string>
+		<key>Legacy</key>
+		<string>PBR</string>
 		<key>XMPDetection</key>
-		<string>-1</string>
+		<false/>
+	</dict>
+	<key>GUI</key>
+	<dict>
+		<key>Theme</key>
+		<string>newyear</string>
+		<key>Mouse</key>
+		<dict>
+			<key>Speed</key>
+			<integer>8</integer>
+			<key>Enabled</key>
+			<true/>
+		</dict>
+		<key>Hide</key>
+		<array>
+			<string>Windows</string>
+			<string>BOOTX64.EFI</string>
+		</array>
+		<key>Language</key>
+		<string>en:0</string>
+		<key>Scan</key>
+		<dict>
+			<key>Entries</key>
+			<true/>
+			<key>Tool</key>
+			<true/>
+			<key>Legacy</key>
+			<true/>
+		</dict>
+		<key>TextOnly</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>FakeID</key>
+		<dict>
+			<key>ATI</key>
+			<string>0x0</string>
+			<key>NVidia</key>
+			<string>0x0</string>
+			<key>IMEI</key>
+			<string>0x0</string>
+			<key>LAN</key>
+			<string>0x0</string>
+			<key>SATA</key>
+			<string>0x0</string>
+			<key>IntelGFX</key>
+			<string>0x0</string>
+			<key>XHCI</key>
+			<string>0x0</string>
+			<key>WIFI</key>
+			<string>0x0</string>
+		</dict>
+		<key>Inject</key>
+		<false/>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
 			<string>No</string>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>ATI</key>
-			<string>0x0</string>
-			<key>IMEI</key>
-			<string>0x0</string>
-			<key>IntelGFX</key>
-			<string>0x0</string>
-			<key>LAN</key>
-			<string>0x0</string>
-			<key>NVidia</key>
-			<string>0x0</string>
-			<key>SATA</key>
-			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
-			<key>XHCI</key>
-			<string>0x0</string>
-		</dict>
-		<key>Inject</key>
-		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -173,38 +199,12 @@
 	<array>
 		<string>Nothing</string>
 	</array>
-	<key>GUI</key>
-	<dict>
-		<key>Hide</key>
-		<array>
-			<string>Windows</string>
-			<string>BOOTX64.EFI</string>
-		</array>
-		<key>Language</key>
-		<string>en:0</string>
-		<key>Mouse</key>
-		<dict>
-			<key>Enabled</key>
-			<true/>
-			<key>Speed</key>
-			<integer>8</integer>
-		</dict>
-		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Legacy</key>
-			<true/>
-			<key>Tool</key>
-			<true/>
-		</dict>
-		<key>TextOnly</key>
-		<false/>
-		<key>Theme</key>
-		<string>metal</string>
-	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>PatchVBios</key>
+		<false/>
+		<key>RadeonDeInit</key>
+		<false/>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -214,65 +214,61 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>PatchVBios</key>
-		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>AppleIntelCPUPM</key>
+		<false/>
 		<key>AppleRTC</key>
-		<false/>
-		<key>AsusAICPUPM</key>
-		<false/>
-		<key>Debug</key>
 		<false/>
 		<key>KernelCpu</key>
 		<false/>
-		<key>KextsToPatch</key>
-		<array/>
+		<key>Debug</key>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>CsrActiveConfig</key>
-		<string>0x3</string>
-		<key>LogEveryBoot</key>
-		<string>No</string>
 		<key>LogLineCount</key>
 		<integer>3000</integer>
+		<key>LogEveryBoot</key>
+		<string>No</string>
+		<key>CsrActiveConfig</key>
+		<string>0x3</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>Family</key>
+		<string>Mac Pro</string>
 		<key>BiosReleaseDate</key>
 		<string>06/12/13</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
 		<string>MP61.88Z.0116.B04.1312061508</string>
+		<key>Mobile</key>
+		<false/>
+		<key>Version</key>
+		<string>1.0</string>
+		<key>Trust</key>
+		<false/>
 		<key>Board-ID</key>
 		<string>Mac-F60DEB81FF30ACF6</string>
-		<key>BoardManufacturer</key>
+		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
+		<key>ProductName</key>
+		<string>MacPro6,1</string>
+		<key>ChassisType</key>
+		<string>06</string>
 		<key>BoardType</key>
 		<integer>11</integer>
+		<key>SerialNumber</key>
+		<string>C02LCW72F693</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
 		<key>ChassisAssetTag</key>
 		<string>Pro-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>06</string>
-		<key>Family</key>
-		<string>Mac Pro</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
-		<key>ProductName</key>
-		<string>MacPro6,1</string>
-		<key>SerialNumber</key>
-		<string>C02LCW72F693</string>
-		<key>Trust</key>
-		<false/>
-		<key>Version</key>
-		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
@@ -280,8 +276,6 @@
 		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<false/>
-		<key>NvidiaWeb</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
