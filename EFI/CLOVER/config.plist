@@ -121,7 +121,7 @@
 		<key>DefaultVolume</key>
 		<string>jazzmaster</string>
 		<key>Arguments</key>
-		<string>npci=0x2000 kext-dev-mode=1 dart=0 -v</string>
+		<string>npci=0x2000 kext-dev-mode=1 dart=0 -v debug=0x100 keepsyms=1 darkwake=0</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>XMPDetection</key>
@@ -130,7 +130,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>Theme</key>
-		<string>newyear</string>
+		<string>embedded</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Speed</key>
@@ -201,19 +201,23 @@
 	</array>
 	<key>Graphics</key>
 	<dict>
-		<key>PatchVBios</key>
-		<false/>
-		<key>RadeonDeInit</key>
+		<key>FBName</key>
+		<string>Orinoco</string>
+		<key>NvidiaSingle</key>
 		<false/>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
+			<true/>
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>VideoPorts</key>
+		<integer>5</integer>
+		<key>RadeonDeInit</key>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -228,31 +232,39 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>LogLineCount</key>
-		<integer>3000</integer>
 		<key>LogEveryBoot</key>
 		<string>No</string>
+		<key>LogLineCount</key>
+		<integer>3000</integer>
+		<key>BooterConfig</key>
+		<string>0x28</string>
+		<key>ROM</key>
+		<string>UseMacAddr0</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3</string>
+		<string>0x67</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>Family</key>
-		<string>Mac Pro</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
 		<key>BiosReleaseDate</key>
 		<string>06/12/13</string>
 		<key>BiosVersion</key>
 		<string>MP61.88Z.0116.B04.1312061508</string>
-		<key>Mobile</key>
-		<false/>
+		<key>Family</key>
+		<string>Mac Pro</string>
 		<key>Version</key>
 		<string>1.0</string>
-		<key>Trust</key>
+		<key>Mobile</key>
 		<false/>
 		<key>Board-ID</key>
 		<string>Mac-F60DEB81FF30ACF6</string>
+		<key>Trust</key>
+		<false/>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>F5K639609GUFHDDA8</string>
 		<key>ProductName</key>
 		<string>MacPro6,1</string>
 		<key>ChassisType</key>
@@ -260,22 +272,20 @@
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>SerialNumber</key>
-		<string>C02LCW72F693</string>
+		<string>F5KSGDYDF9VM</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisAssetTag</key>
 		<string>Pro-Enclosure</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
+		<key>SmUUID</key>
+		<string>B5361059-A94B-4DE0-B13B-3CBCC6110871</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
 		<string>Yes</string>
-		<key>InjectSystemID</key>
-		<false/>
 	</dict>
 </dict>
 </plist>

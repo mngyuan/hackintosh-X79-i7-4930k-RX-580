@@ -1,0 +1,363 @@
+0:100  0:100  MemLog inited, TSC freq: 3402064967
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 04.08.2020,  09:47:53 (GMT)
+0:100  0:000  Starting Clover revision: 5120 (master, commit 33816ae90) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(1,GPT,96DF2F89-3495-4ADA-ACF4-A97CDC1F61A4,0x28,0x64000) @B9220318
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Clover : Image base = 0x89B29000
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ==============================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 8
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelA ChannelA_Dimm1
+0:100  0:000  SmbiosTable.Type17->Vendor = Undefined                  
+0:100  0:000  SmbiosTable.Type17->SerialNumber = A90F429E             
+0:100  0:000  SmbiosTable.Type17->PartNumber = BLT8G3D1608ET3LX0     
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelA ChannelA_Dimm2
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelB ChannelB_Dimm1
+0:100  0:000  SmbiosTable.Type17->Vendor = Undefined                  
+0:100  0:000  SmbiosTable.Type17->SerialNumber = A1105A33             
+0:100  0:000  SmbiosTable.Type17->PartNumber = BLT8G3D1608ET3LX0     
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelB ChannelB_Dimm2
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Type 17 Index = 4
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelC ChannelC_Dimm1
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Type 17 Index = 5
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelC ChannelC_Dimm2
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Type 17 Index = 6
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelD ChannelD_Dimm1
+0:100  0:000  SmbiosTable.Type17->Vendor = Undefined                  
+0:100  0:000  SmbiosTable.Type17->SerialNumber = A1105A31             
+0:100  0:000  SmbiosTable.Type17->PartNumber = BLT8G3D1608ET3LX0     
+0:100  0:000  Type 17 Index = 7
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = ChannelD ChannelD_Dimm2
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'System Product Name' with board 'SABERTOOTH X79'
+0:100  0:000  === [ GetCPUProperties ] ========================
+0:100  0:000  CPU Vendor = 756E6547 Model=306E4
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               6000C
+0:100  0:000  MSR 0xE2 before patch 00000400
+0:100  0:000  MSR 0xCE              00000C10_F0012200
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 34.0/12
+0:100  0:000  Turbo: 37/37/37/39
+0:100  0:000  Features: 0x77BEE3BFBFEBFBFF
+0:100  0:000  Threads: 12
+0:100  0:000  Cores: 6
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3400 MHz
+0:100  0:000  TSC: 3400 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ==============================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010300)
+0:100  0:000  PCI (00|00:00.00) : 8086 0E00 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 0E04 class=060400
+0:100  0:000  PCI (00|01:00.00) : 1002 67DF class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=AMD Radeon RX 480/570/580 (ATI/AMD)
+0:100  0:000  PCI (00|01:00.01) : 1002 AAF0 class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:03.00) : 8086 0E08 class=060400
+0:100  0:000  PCI (00|00:01.00) : 8086 0E02 class=060400
+0:100  0:000  PCI (00|00:05.00) : 8086 0E28 class=088000
+0:100  0:000  PCI (00|00:05.02) : 8086 0E2A class=088000
+0:100  0:000  PCI (00|00:05.04) : 8086 0E2C class=080020
+0:100  0:000  PCI (00|00:11.00) : 8086 1D3E class=060400
+0:100  0:000  PCI (00|00:16.00) : 8086 1D3A class=078000
+0:100  0:000  PCI (00|00:19.00) : 8086 1503 class=020000
+0:100  0:000   - LAN: 0 Vendor=Intel
+0:100  0:000  PCI (00|00:1A.00) : 8086 1D2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1D20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1D10 class=060400
+0:100  0:000  PCI (00|05:00.00) : 168C 0030 class=028000
+0:100  0:000   - WIFI: Vendor= Atheros
+0:100  0:000  PCI (00|00:1C.04) : 8086 1D18 class=060400
+0:100  0:000  PCI (00|06:00.00) : 1B21 0612 class=010601
+0:100  0:000  PCI (00|00:1C.05) : 8086 1D1A class=060400
+0:100  0:000  PCI (00|07:00.00) : 1106 3403 class=0C0010
+0:100  0:000  PCI (00|00:1C.07) : 8086 1D1E class=060400
+0:100  0:000  PCI (00|08:00.00) : 1B4B 9130 class=010601
+0:100  0:000  PCI (00|00:1D.00) : 8086 1D26 class=0C0320
+0:100  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+0:100  0:000  PCI (00|00:1F.00) : 8086 1D41 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 1D02 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 1D22 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ======================
+0:100  0:000  Clover load options size = 0 bytes
+0:122  0:021  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name--00-00-00-00-00-00. Dir not exists
+0:122  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\SABERTOOTH X79\UEFI. Dir not exists
+0:122  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name. Dir not exists
+0:122  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name-3400. Dir not exists
+0:122  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\SABERTOOTH X79. Dir not exists
+0:122  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\SABERTOOTH X79-3400. Dir not exists
+0:122  0:000  set OEMPath by default: EFI\CLOVER
+0:127  0:005  EFI\CLOVER\config.plist loaded: Success
+0:127  0:000  === [ GetListOfThemes ] =========================
+0:134  0:006  - [00]: NEWYEAR
+0:148  0:014  - [01]: christmas
+0:165  0:016  - [02]: RANDOM
+0:172  0:006  - [02]: EMBEDDED
+0:178  0:006  === [ Found config plists ] =====================
+0:178  0:000  - config.plist
+0:178  0:000  === [ GetEarlyUserSettings ] ====================
+0:178  0:000  timeout set to 0
+0:178  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:178  0:000   get BlueValue=1.200000
+0:178  0:000  Default theme: embedded
+0:178  0:000  Hiding entries with string Windows
+0:178  0:000  Hiding entries with string BOOTX64.EFI
+0:178  0:000  === [ LoadDrivers ] =============================
+0:193  0:014  Loading PartitionDxe.efi  status=Success
+0:197  0:004   - driver needs connecting
+0:197  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:199  0:002   - driver needs connecting
+0:199  0:000  Loading SMCHelper.efi  status=Success
+0:204  0:004  Loading EmuVariableUefi.efi  status=Success
+0:206  0:002  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:206  0:000  Loading FSInject.efi  status=Success
+0:210  0:004  Loading OsxAptioFix3Drv.efi  status=Success
+0:213  0:002  Loading AudioDxe.efi  status=Success
+0:217  0:004   - driver needs connecting
+0:217  0:000  Loading VBoxHfs.efi  status=Success
+0:219  0:002   - driver needs connecting
+0:219  0:000  Loading DataHubDxe.efi  status=Success
+0:223  0:003  4 drivers needs connecting ...
+0:223  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:223  0:000  Partition driver loaded: 
+0:223  0:000  APFS driver loaded
+0:223  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+10:232  10:009  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+10:243  0:011  === [ InitScreen ] ==============================
+10:243  0:000  Console modes reported: 3, available modes:
+10:243  0:000   - [01]: 80x25 (current mode)
+10:243  0:000   - [02]: 80x50
+10:243  0:000   - [03]: 100x31
+10:243  0:000  SetMaxResolution: found best mode 0: 2560x1440
+10:260  0:016  Video mode change to mode #0: Success
+10:260  0:000   - set
+10:260  0:000  SetScreenResolution: 2560x1440 - already set
+10:260  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(1,GPT,96DF2F89-3495-4ADA-ACF4-A97CDC1F61A4,0x28,0x64000)
+10:260  0:000  new SelfHandle=B9220318
+10:260  0:000  === [ GetMacAddress ] ===========================
+10:260  0:000  MAC address of LAN #0= 40:16:7E:7B:D0:8F:
+10:260  0:000  === [ ScanSPD ] =================================
+10:260  0:000  Scanning SMBus [8086:1D22], mmio: 0xFBF24004, ioport: 0xF000, hostc: 0x1
+10:261  0:001  === [ GetAcpiTablesList ] =======================
+10:261  0:000  Get Acpi Tables List from RSDT:
+10:261  0:000   - [00]: FACP  A M I len=132
+10:261  0:000   - [01]: APIC  A M I len=256
+10:261  0:000   - [02]: FPDT  A M I len=68
+10:261  0:000   - [03]: MCFG  OEMMCFG. len=60
+10:261  0:000   - [04]: HPET  A M I len=56
+10:261  0:000   - [05]: VFCT  A M I len=60548
+10:261  0:000   - [06]: SSDT  CpuPm len=839976
+10:261  0:000  Calibrated TSC Frequency = 3402064967 = 3402MHz
+10:261  0:000  === [ GetUserSettings ] =========================
+10:261  0:000  USB FixOwnership: no
+10:261  0:000  Dropping 3 tables:
+10:261  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+10:261  0:000  ----
+10:261  0:000           - set table: 52414D44,                0 to drop: no
+10:261  0:000   - [01]: Drop table  signature="SSDT" (54445353)
+10:261  0:000   table-id="CpuPm" (      6D50757043)
+10:261  0:000  ----
+10:261  0:000           - set table: 54445353,       6d50757043 to drop: yes
+10:261  0:000   - [02]: Drop table  signature="SSDT" (54445353)
+10:261  0:000   table-id="Cpu0Ist" (  74734930757043)
+10:261  0:000  ----
+10:261  0:000           - set table: 54445353,   74734930757043 to drop: no
+10:261  0:000   - final DSDT Fix mask=10000000
+10:261  0:000  EnableC7: no
+10:261  0:000  EnableC6: no
+10:261  0:000  EnableC4: no
+10:261  0:000  EnableC2: no
+10:261  0:000  Using ProductName from config: MacPro6,1
+10:261  0:000  Using latest BiosVersion from config
+10:261  0:000  BiosVersion: MP61.88Z.0116.B04.1312061508
+10:261  0:000  BiosReleaseDate: 06/12/2013
+10:261  0:000  Using EfiVersion from clover: 136.0.0.0.0
+10:261  0:000  Using FirmwareFeatures from clover: 0xE80FE176
+10:261  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF7F
+10:261  0:000  Using PlatformFeature from clover: 0x4
+10:261  0:000  Board-ID set from config as Mac-F60DEB81FF30ACF6
+10:261  0:000  BoardType: 0xB
+10:261  0:000  ChassisType: 0x6
+10:267  0:006  === [ Found DSDT tables ] =======================
+11:629  1:361  === [ ScanVolumes ] =============================
+11:629  0:000  Found 15 volumes with blockIO
+11:629  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)
+11:631  0:002  - [01]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)
+11:634  0:002  - [02]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)\HD(1,GPT,3AD37DCB-B39B-49E6-9601-FBE2BC62622A,0x800,0xF9800)
+11:636  0:002          Result of bootcode detection: bootable Windows (vista,win)
+11:636  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)\HD(2,GPT,25C90FA6-28A8-445A-9838-11A2ABE65318,0xFA000,0x32000)
+11:638  0:002          Result of bootcode detection: bootable Windows (vista,win)
+11:651  0:013  - [04]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)\HD(3,GPT,DC886BC9-F0E1-4CC8-9FBE-B1E8253ABA49,0x12C000,0x8000)
+11:653  0:002  - [05]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)\HD(4,GPT,FE6D89B9-A3AA-4559-A92F-5D791E61B2F5,0x134000,0x1D091800)
+11:656  0:002          Result of bootcode detection: bootable Windows (vista,win)
+11:656  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(1,GPT,96DF2F89-3495-4ADA-ACF4-A97CDC1F61A4,0x28,0x64000)
+11:658  0:002          Result of bootcode detection: bootable unknown (legacy)
+11:680  0:021          This is SelfVolume !!
+11:680  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)
+11:682  0:002          Result of bootcode detection: bootable unknown (legacy)
+11:682  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7B510BBB8D39D44FB5016DDCEBD9284C)
+11:682  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69514335EC315140B9A5FF5DE3B99ED2)
+11:682  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,035EB33C2D549D419011FA7062ED147F)
+11:682  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7424784F16ABF044A19AFC48A7316DF0)
+11:682  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,3F2AB8040FCC094AA24F0698573FA92D)
+11:682  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x6,0x0)
+11:683  0:001  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x6,0x0)\HD(1,MBR,0x0B791E1B,0x800,0xE8E08000)
+11:758  0:075          Result of bootcode detection: bootable unknown (legacy)
+11:758  0:000  Searching volumes for latest nvram.plist ...
+11:758  0:000  loaded Status=Not Found
+11:758  0:000  PutNvramPlistToRtVars: nvram.plist not found
+11:758  0:000  found 2 handles with audio
+11:759  0:000  No AudioIoDevice stored
+11:759  0:000  no stored audio parameters
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 0
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 1
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 2
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 3
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 4
+11:759  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 5
+11:759  0:000  Found Audio Device Realtek ALC892 (SPDIF) at index 6
+11:759  0:000  Found Audio Device Realtek ALC892 (LineOut) at index 7
+11:759  0:000  Found Audio Device Realtek ALC892 (LineOut) at index 8
+11:759  0:000  Found Audio Device Realtek ALC892 (LineOut) at index 9
+11:759  0:000  Found Audio Device Realtek ALC892 (LineOut) at index 10
+11:759  0:000  Found Audio Device Realtek ALC892 (Headphones) at index 11
+11:759  0:000  Found Audio Device Realtek ALC892 (SPDIF) at index 12
+11:759  0:000  === [ InitXTheme ] ==============================
+11:759  0:000  use Daylight theme
+11:759  0:000   using embedded theme
+11:775  0:016  sound play end with status=Device Error
+11:777  0:002  Using embedded font
+11:777  0:000  theme inited
+11:777  0:000  Chosen embedded theme
+11:777  0:000  after NVRAM boot-args=npci=0x2000 kext-dev-mode=1 dart=0 -v debug=0x100 keepsyms=1
+11:777  0:000  === [ Dump SMC keys from NVRAM ] ================
+11:777  0:000  found AppleSMC protocol
+11:778  0:000  Registered 16 SMC keys
+11:778  0:000  === [ ScanLoader ] ==============================
+11:778  0:000  - [03]: 'EFI'
+11:804  0:026          AddLoaderEntry for Volume Name=EFI
+11:804  0:000  IconName=vista,win comma=5 size=9
+11:804  0:000    first=os_vista
+11:804  0:000    Second=os_win
+11:804  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x0,0x0)\HD(2,GPT,25C90FA6-28A8-445A-9838-11A2ABE65318,0xFA000,0x32000)\EFI\microsoft\Boot\bootmgfw.efi'
+11:808  0:004          AddLoaderEntry for Volume Name=EFI
+11:808  0:000          skipped because entry is hidden
+11:808  0:000  - [06]: 'EFI'
+11:841  0:032          AddLoaderEntry for Volume Name=EFI
+11:841  0:000          skipped because entry is hidden
+11:841  0:000  - [08]: 'Preboot'
+11:845  0:004          AddLoaderEntry for Volume Name=Preboot
+11:852  0:007      Check if volume Is Hibernated:
+11:852  0:000      Check sleep image 'by signature':
+11:852  0:000      using default sleep image name = \private\var\vm\sleepimage
+11:852  0:000      sleepimage not found -> Not Found
+11:852  0:000      hibernated: no - sign
+11:852  0:000  IconName=cata,mac comma=4 size=8
+11:852  0:000    first=os_cata
+11:852  0:000    Second=os_mac
+11:852  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7B510BBB8D39D44FB5016DDCEBD9284C)\04B82A3F-CC0F-4A09-A24F-0698573FA92D\System\Library\CoreServices\boot.efi'
+11:853  0:000  - [09]: 'jazzmaster - Data'
+11:906  0:052  - [10]: 'Recovery'
+11:906  0:000          AddLoaderEntry for Volume Name=Recovery
+11:910  0:004  IconName=cata,mac comma=4 size=8
+11:910  0:000    first=os_cata
+11:910  0:000    Second=os_mac
+11:910  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,035EB33C2D549D419011FA7062ED147F)\04B82A3F-CC0F-4A09-A24F-0698573FA92D\boot.efi'
+11:911  0:000  - [11]: 'VM'
+11:911  0:000  - [12]: 'jazzmaster'
+11:993  0:082          AddLoaderEntry for Volume Name=jazzmaster
+12:015  0:021      Check if volume Is Hibernated:
+12:015  0:000      Check sleep image 'by signature':
+12:019  0:004      using default sleep image name = \private\var\vm\sleepimage
+12:019  0:000      sleepimage not found -> Not Found
+12:019  0:000      hibernated: no - sign
+12:019  0:000  IconName=cata,mac comma=4 size=8
+12:019  0:000    first=os_cata
+12:019  0:000    Second=os_mac
+12:019  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,3F2AB8040FCC094AA24F0698573FA92D)\System\Library\CoreServices\boot.efi'
+12:019  0:000  Scanning legacy ...
+12:019  0:000  IconName=vista,win comma=5 size=9
+12:019  0:000    first=os_vista
+12:019  0:000    Second=os_win
+12:020  0:000  IconName=vista,win comma=5 size=9
+12:020  0:000    first=os_vista
+12:020  0:000    Second=os_win
+12:020  0:000  IconName=vista,win comma=5 size=9
+12:020  0:000    first=os_vista
+12:020  0:000    Second=os_win
+12:020  0:000  === [ AddCustomTool ] ===========================
+12:027  0:007  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+12:027  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+12:039  0:011  === [ GetEfiBootDeviceFromNvram ] ===============
+12:039  0:000   - found entry 3. 'Boot macOS from jazzmaster', Volume 'jazzmaster', DevicePath 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\Scsi(0x1,0x0)\HD(2,GPT,8E9AE3FB-FF2D-4FD5-97FC-FA980B952C1D,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,3F2AB8040FCC094AA24F0698573FA92D)\System\Library\CoreServices\boot.efi'
+12:039  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+12:039  0:000  BannerPlace at Clear Screen [1216,404]
+12:059  0:020  AnimeRun=0
+12:080  0:021  GUI ready
+16:816  4:735  BootVariable of the entry is empty
+16:816  0:000  === [ StartLoader ] =============================
+16:816  0:000  Finally: ExternalClock=26MHz BusSpeed=100061kHz CPUFreq=3402MHz PIS: hw.busfrequency=104000000Hz
+16:816  0:000  start loader
+16:816  0:000  Loading bootmgfw.efi  status=Success
+16:852  0:036  Closing events for Windows
+16:852  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+16:852  0:000  OtherOS: Found Acpi 2.0 RSDP 0xBBDF3000
+16:852  0:000  RSDT at 0xBBDF3028
+16:852  0:000  XSDT at 0xBBDF3070
+16:852  0:000  FADT pointer = 0xBBDFD240
+16:862  0:010  === [ ACPIDropTables ] ==========================
+16:862  0:000  Cleanup RSDT: count=7, length=64
+16:862  0:000  corrected RSDT: count=7, length=64
+16:862  0:000  Cleanup XSDT: count=7, length=92
+16:862  0:000  corrected XSDT count=7, length=92
+16:863  0:000  Closing log
