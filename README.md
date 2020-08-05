@@ -20,6 +20,7 @@ Working
 Not working
 * Airdrop (haven't debugged yet)
 * HDMI ports on RX 580
+* Sleep / system powers down after idle
 
 ## Resources
 [RampageDev's X79 Guide](X79.dmg) ([mediafire mirror](http://www.mediafire.com/file/pd6v64ym2s9fv6n/X79.dmg/file)) (found through [reddit](https://www.reddit.com/r/hackintosh/comments/9ga0r9/rampagedev_x79_dmg/) since their site seems down)
