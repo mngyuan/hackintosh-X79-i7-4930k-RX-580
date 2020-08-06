@@ -15,17 +15,14 @@ Working
 * Audio
 * iMessage
 * Bluetooth/WiFi/Ethernet
-* Dual monitors (with DisplayPort)
+* Dual monitors
 
 Not working
 * Airdrop (haven't debugged yet)
-* HDMI ports on RX 580
-* Sleep / system powers down after idle
+* Sleep
 
 ## Resources
-[RampageDev's X79 Guide](X79.dmg) ([mediafire mirror](http://www.mediafire.com/file/pd6v64ym2s9fv6n/X79.dmg/file)) (found through [reddit](https://www.reddit.com/r/hackintosh/comments/9ga0r9/rampagedev_x79_dmg/) since their site seems down)
-
-[Hackintosher's Guide and prepackaged EFI](https://hackintosher.com/guides/high-sierra-install-full-guide/)
+[Guide on updating hackintosh](https://davejansen.com/keeping-your-hackintosh-up-to-date/)
 
 [Vanilla Hackintosh Guide from /r/hackintosh](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)
 
@@ -33,7 +30,8 @@ Not working
 
 [IO80211Family.kext for TP-Link tl-wdn4800 n900](https://www.tonymacx86.com/threads/solved-my-wifi-tl-wdn4800-n900-not-working-after-install-mojave.257115/)
 
-[Guide on updating hackintosh](https://davejansen.com/keeping-your-hackintosh-up-to-date/)
+[RX 580 HDMI port fix](https://www.tonymacx86.com/threads/solved-sapphire-rx-580-nitro-se-black-screen-on-hdmi-and-dvi.267078/page-4#post-1906898)
+
 
 ## Overview
 This time around, hackintoshing has matured a lot, even in the last 1.5 years since I reinstalled High Sierra on this machine, and updating was much simpler than a clean install.
@@ -47,4 +45,5 @@ This time around, hackintoshing has matured a lot, even in the last 1.5 years si
 1. Installed Catalina (through App Store)
 1. Installed `IO80211Family.kext` to get wifi
 1. Downgraded `IntelMausiEthernet.kext` back to 2.2.0 to get ethernet working again
-1. Swapped HDMI cable for DisplayPort on second monitor to get it working again
+1. Applied above  [RX 580 HDMI port fix](https://www.tonymacx86.com/threads/solved-sapphire-rx-580-nitro-se-black-screen-on-hdmi-and-dvi.267078/page-4#post-1906898) to get proper displaysleep, HDMI ports working
+1. Modified energy saver to prevent sleep

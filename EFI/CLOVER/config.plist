@@ -227,6 +227,21 @@
 		<false/>
 		<key>KernelCpu</key>
 		<false/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Find</key>
+				<data>AAQAAAQDAAAAAQEBAAAAABIEBgEAAAAAAAQAAAQDAAAAAQIBAAAAACIFBAMAAAAAAAgAAAQCAAAAAQMAAAAAABECAQIAAAAAAAgAAAQCAAAAAQQAAAAAACEDBQQAAAAABAAAAAQAAAAAAQUAAAAAAAAAAwYAAAAA</data>
+				<key>Name</key>
+				<string>AMD9500Controller</string>
+				<key>Replace</key>
+				<data>AAQAAAQDAAAAAQABAAAAABIEBgEAAAAAAAQAAAQDAAAAAQABAAAAACIFBAMAAAAAAAQAAAQDAAAAAQABAAAAABECAQIAAAAAAAgAAAQCAAAAAQAAAAAAACEDBQQAAAAABAAAAAQCAAAAAQAAAAAAAAAAAwYAAAAA</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>foxbox rx 580 patch</string>
+			</dict>
+		</array>
 		<key>Debug</key>
 		<false/>
 	</dict>
