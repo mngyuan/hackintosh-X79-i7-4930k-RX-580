@@ -1,13 +1,14 @@
-# Asus Sabertooth X79 with i7 4930k & RX 580 Hackintosh
+# Asus Sabertooth X79 with i7 4930k & RX 570 Hackintosh
 
-I updated this machine to Catalina directly from High Sierra and had to swap the 1050 Ti for an RX 580.
+I updated this machine to Catalina directly from High Sierra and had to swap the 1050 Ti for an RX 570.
 
 Hardware
 * i7 4930k
-* Sapphire Pulse RX 580
+* MSI RX 570 OC
 * Asus Sabertooh X79
 * Kingston V300 (sv300s37a240g)
 * TP-Link tl-wdn4800 n900
+* Sabrent BT-UB40
 
 Running High Sierra 10.15.6, SMBIOS system definition MacPro6,1
 
@@ -16,10 +17,10 @@ Working
 * iMessage
 * Bluetooth/WiFi/Ethernet
 * Dual monitors
+* Sleep
 
 Not working
-* Airdrop (haven't debugged yet)
-* Sleep
+* Airdrop
 
 ## Resources
 [Guide on updating hackintosh](https://davejansen.com/keeping-your-hackintosh-up-to-date/)
@@ -47,3 +48,6 @@ This time around, hackintoshing has matured a lot, even in the last 1.5 years si
 1. Downgraded `IntelMausiEthernet.kext` back to 2.2.0 to get ethernet working again
 1. Applied above  [RX 580 HDMI port fix](https://www.tonymacx86.com/threads/solved-sapphire-rx-580-nitro-se-black-screen-on-hdmi-and-dvi.267078/page-4#post-1906898) to get proper displaysleep, HDMI ports working
 1. Modified energy saver to prevent sleep
+
+## Notes
+I'm using a RX580 fix because previously this machine had a Sapphire Pulse RX 580 installed, but it was causing the PSU to trip.
