@@ -51,3 +51,5 @@ This time around, hackintoshing has matured a lot, even in the last 1.5 years si
 
 ## Notes
 I'm using a RX580 fix because previously this machine had a Sapphire Pulse RX 580 installed, but it was causing the PSU to trip.
+
+I'm using [the orange icon fix](https://www.tonymacx86.com/threads/small-question-yellow-disk-image-icons-at-desktop.174907/post-1119847) to fix internal drives showing as external drives.

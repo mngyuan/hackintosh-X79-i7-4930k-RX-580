@@ -241,6 +241,16 @@
 				<key>Comment</key>
 				<string>foxbox rx 580 patch</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>External icons patch</string>
+				<key>Find</key>
+				<data>RXh0ZXJuYWw=</data>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>SW50ZXJuYWw=</data>
+			</dict>
 		</array>
 		<key>Debug</key>
 		<false/>
